@@ -4,172 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestaurenteStone</title>
-    <link rel="Pratos" href="Pratos.html">
-    <link rel="Inicio" href="index.html">
-    
-    <style>
-        /* Estilos para centralizar os menus */
-        
-        .C-icone{
-            margin-right: 5rem;
-            letter-spacing: 2px;
-            transition: 0.3s all;
-            margin-top: 2rem;
-            color: black;
-            font-size: 1.2rem;
-            padding: 10px 15px;
-            cursor: pointer;
-            
-        }
-
-
-
-
-        ul li a{
-            text-decoration: none;
-            color: black;
-            transition: 0.3s;
-            font-size: 20px;
-        }
-
-
-
-
-
-        ul li a:hover{
-            text-transform: capitalize;
-            color: rgb(101, 110, 3);
-            border-bottom: solid 1px;
-        }
-        
-        ul.links {
-            list-style: none;
-            padding: 8;
-            text-align: center;
-            }
-
-        ul.links li {
-            display: inline-block;
-            margin-right: 20px; /* Espaçamento entre os itens do menu, ajuste conforme necessário */
-            }
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Roboto";
-            border: none;
-        }
-
-        .C-title button:hover{
-            letter-spacing: 2px;
-            transition: 0.3s all;
-        }
-      </style>
-    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylebebidas.css">
 
 </head>
 <body>
     <div class="background">
         <header>
-            <div class="logo">
-                <img src="logoRestaurante.jpg" alt="logo">   
-            </div>
-
-            <ul class="links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Pratos.html">Cárdapio</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="#">Adicionais</a></li>
-                <li><a href="#">Contatos</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-            
-            <div class="C-icone">
-                <span class="Icone"><ion-icon name="search-outline"></ion-icon></span>
-                <span class="Icone"><ion-icon name="cart-outline"></ion-icon></span>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <img src="logoRestaurante.jpg" alt="logo">
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-   
 
+    <ul class="links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Pratos.html">Pratos</a></li>
+        <li><a href="bebidas.html">Bebidas</a></li>
+        <li><a href="#">Adicionais</a></li>
+        <li><a href="#">Contatos</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
 
+    <hr class="menu-line"> <!-- Linha horizontal -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-
-<div class="container">
-    <h1 class="mt-5">Bebidas</h1>
-
-    <div class="row mt-4">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://d2r9epyceweg5n.cloudfront.net/stores/001/212/823/products/guarana-antartictica-237ml-pet1-994e87c28b9a2add0e15926996359124-480-0.jpg" class="card-img-top" alt="Prato 1">
-                <div class="card-body">
-                    <h5 class="card-title">Refrigerante Guaraná Antartica</h5>
-                    <p class="card-text">237ml</p>
-                    <p class="card-text">Preço: R$ 4,50</p>
+    <div class="container">
+        <h1 class="mt-5">Bebidas</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://d2r9epyceweg5n.cloudfront.net/stores/001/212/823/products/guarana-antartictica-237ml-pet1-994e87c28b9a2add0e15926996359124-480-0.jpg" class="card-img-top" alt="Prato 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerante Guaraná Antartica</h5>
+                        <p class="card-text">237ml</p>
+                        <p class="card-text">Preço: R$ 4,50</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/theplanetburger/286_62d74cb90b240.jpg" class="card-img-top" alt="Prato 2">
-                <div class="card-body">
-                    <h5 class="card-title">Refrigerante Coca-Cola</h5>
-                    <p class="card-text">600ml</p>
-                    <p class="card-text">Preço: R$ 12,50</p>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/theplanetburger/286_62d74cb90b240.jpg" class="card-img-top" alt="Prato 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerante Coca-Cola</h5>
+                        <p class="card-text">600ml</p>
+                        <p class="card-text">Preço: R$ 12,50</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-B9AcT0HoeUMls69fF5xExA9WHkxMRDMVQ&usqp=CAU" class="card-img-top" alt="Prato 3">
-                <div class="card-body">
-                    <h5 class="card-title">Suco de Laranja</h5>
-                    <p class="card-text">300ml</p>
-                    <p class="card-text">Preço: R$ 16.99</p>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-B9AcT0HoeUMls69fF5xExA9WHkxMRDMVQ&usqp=CAU" class="card-img-top" alt="Prato 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Suco de Laranja</h5>
+                        <p class="card-text">300ml</p>
+                        <p class="card-text">Preço: R$ 16.99</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
+</body>
+</html>
